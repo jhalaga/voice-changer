@@ -1,0 +1,27 @@
+{
+    "version": "0.1",
+    "name": "Voice Changer",
+    "description": "AI tool for changing a recoreded voice to the selected virtual voice profile.",
+    "launch_path": "/index.html",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "32x32"
+        }
+    ],
+    "developer": {
+        "name": "Jozef Halaga",
+        "url": "https://github.com/jhalaga/voice-changer"
+    },
+    "locales": {
+        "sk": {
+            "description": "AI nástroj na zmenu nahraného hlasu na iný hlas podľa výberu."
+        }
+    },
+    "default_locale": "en",
+    "permissions": {
+        "audio-capture": {
+            "description": "Required to record audio"
+        }
+    }
+}
